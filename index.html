@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Stock Ticker</title>
 </head>
 <body>
-    <div>
-        <h3>Name:</h3> <p></p>
-        <h3>Symbol:</h3> <p></p>
-        <h3>Price:</h3> <p></p> <!--According to the provided diagram for the end result, the triangle is supposed to be displayed after the numerical value of the price-->
-        <h3>Time:</h3> <p></p>
-    </div>
+    <main>
+        <div class="stock-card">
+            <span class="label">Name:</span> <p id="name-el"></p>
+            <span class="label">Symbol:</span> <p id="symbol-el"></p>
+            <span class="label">Price:</span> <p id="price-el"><span id="trend-icon"></span></p> 
+            <span class="label">Time:</span> <p id="time-el"></p>
+        </div>
+    </main>
+    <script></script>
 </body>
 </html>

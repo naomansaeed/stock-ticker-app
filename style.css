@@ -1,0 +1,19 @@
+.stock-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.trend-up{
+    color: green;
+}
+
+.trend-down{
+    color: red;
+}
+
+.trend-unchanged{
+    color: gray;
+}
